@@ -13,7 +13,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Verify that “About this item” section is present and log this section text to console/report.",
+  "name": "Search Samsung television and verify \"About this item\" section",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -48,6 +48,56 @@ formatter.step({
 });
 formatter.match({
   "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTelevisions()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user filters the results by Brand Samsung",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userFiltersTheResultsByBrandSamsung()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user sorts the Samsung results with price High to Low",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userSortsTheSamsungResultsWithPriceHighToLow()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the second highest priced item",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTheSecondHighestPricedItem()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "switch the window",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.switchTheWindow()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "verify that \"About this item\" section is present and log this section text to console",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.verifyThatSectionIsPresentAndLogThisSectionTextToConsoleReport(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
