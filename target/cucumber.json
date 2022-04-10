@@ -3,19 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2022-04-10T21:20:18.331Z",
+        "start_timestamp": "2022-04-10T21:51:27.061Z",
         "before": [
           {
             "result": {
-              "duration": 11250986900,
+              "duration": 9789307600,
               "status": "passed"
             },
             "match": {
@@ -23,14 +15,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "Search Samsung television and verify \"About this item\" section",
+        "line": 4,
+        "name": "Search Samsung television and verify and log \"About this item\" section",
         "description": "",
-        "id": "samsung-tv;search-samsung-television-and-verify-\"about-this-item\"-section",
+        "id": "samsung-tv;search-samsung-television-and-verify-and-log-\"about-this-item\"-section",
         "after": [
           {
             "result": {
-              "duration": 952109900,
+              "duration": 1245044500,
               "status": "passed"
             },
             "match": {
@@ -43,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1680776900,
+              "duration": 2568036600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 5,
             "name": "user is on the amazon home page and clicks on the hamburger menu in the top left corner",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userIsOnTheAmazonHomePageAndClicksOnTheHamburgerMenuInTheTopLeftCorner()"
@@ -55,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 1687118300,
+              "duration": 1906266000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 6,
             "name": "user clicks on the TV, Appliances and Electronics",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTheTVAppliancesAndElectronics()"
@@ -67,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 10512796500,
+              "duration": 7717519200,
               "status": "passed"
             },
-            "line": 9,
+            "line": 7,
             "name": "user clicks on Televisions",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTelevisions()"
@@ -79,10 +71,10 @@
           },
           {
             "result": {
-              "duration": 2767534200,
+              "duration": 2681400600,
               "status": "passed"
             },
-            "line": 10,
+            "line": 8,
             "name": "user filters the results by Brand Samsung",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userFiltersTheResultsByBrandSamsung()"
@@ -91,10 +83,10 @@
           },
           {
             "result": {
-              "duration": 3980449000,
+              "duration": 3934344200,
               "status": "passed"
             },
-            "line": 11,
+            "line": 9,
             "name": "user sorts the Samsung results with price High to Low",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userSortsTheSamsungResultsWithPriceHighToLow()"
@@ -103,10 +95,10 @@
           },
           {
             "result": {
-              "duration": 383251800,
+              "duration": 337222400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 10,
             "name": "user clicks on the second highest priced item",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTheSecondHighestPricedItem()"
@@ -115,10 +107,10 @@
           },
           {
             "result": {
-              "duration": 41026900,
+              "duration": 69049000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 11,
             "name": "switch the window",
             "match": {
               "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.switchTheWindow()"
@@ -127,10 +119,10 @@
           },
           {
             "result": {
-              "duration": 4703349300,
+              "duration": 4671458200,
               "status": "passed"
             },
-            "line": 14,
+            "line": 12,
             "name": "verify that \"About this item\" section is present and log this section text to console",
             "match": {
               "arguments": [

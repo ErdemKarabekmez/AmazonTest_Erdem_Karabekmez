@@ -4,16 +4,8 @@ formatter.feature({
   "description": "",
   "keyword": "Feature"
 });
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
 formatter.scenario({
-  "name": "Search Samsung television and verify \"About this item\" section",
+  "name": "Search Samsung television and verify and log \"About this item\" section",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -21,6 +13,9 @@ formatter.scenario({
       "name": "@wip"
     }
   ]
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.step({
   "name": "user is on the amazon home page and clicks on the hamburger menu in the top left corner",
