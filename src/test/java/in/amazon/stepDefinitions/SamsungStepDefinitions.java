@@ -2,7 +2,9 @@ package in.amazon.stepDefinitions;
 
 import in.amazon.pages.BasePage;
 import in.amazon.pages.HamburgerPage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 
 public class SamsungStepDefinitions {
 
@@ -13,7 +15,19 @@ public class SamsungStepDefinitions {
 
         hamburgerPage.hamburgerMenuClick();
 
+    }
 
+    @When("user clicks on the TV, Appliances and Electronics")
+    public void userClicksOnTheTVAppliancesAndElectronics() {
+
+        hamburgerPage.tvAppliancesElectronicsClick();
+
+    }
+
+    @And("user clicks on Televisions")
+    public void userClicksOnTelevisions() {
+
+        hamburgerPage.televisionsClick();
 
     }
 }

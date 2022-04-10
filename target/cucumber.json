@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is on the amazon home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-04-10T16:59:33.605Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11185680500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.amazon.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify that “About this item” section is present and log this section text to console/report.",
+        "description": "",
+        "id": "samsung-tv;verify-that-“about-this-item”-section-is-present-and-log-this-section-text-to-console/report.",
+        "after": [
+          {
+            "result": {
+              "duration": 682171900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "in.amazon.stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1680324500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the hamburger menu in the top left corner",
+            "match": {
+              "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.user_clicks_on_the_hamburger_menu_in_the_top_left_corner()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1271843300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the TV, Appliances and Electronics",
+            "match": {
+              "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTheTVAppliancesAndElectronics()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1829657900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Televisions",
+            "match": {
+              "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userClicksOnTelevisions()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Samsung TV",
+    "description": "",
+    "id": "samsung-tv",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/amazon.feature",
+    "tags": []
+  }
+]
