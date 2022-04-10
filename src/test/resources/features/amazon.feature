@@ -1,10 +1,8 @@
 Feature: Samsung TV
 
-  Background: User is on the amazon home page
-
   @wip
-  Scenario: Search Samsung television and verify "About this item" section
-    Given user clicks on the hamburger menu in the top left corner
+  Scenario: Search Samsung television and verify and log "About this item" section
+    Given user is on the amazon home page and clicks on the hamburger menu in the top left corner
     When user clicks on the TV, Appliances and Electronics
     And user clicks on Televisions
     And user filters the results by Brand Samsung

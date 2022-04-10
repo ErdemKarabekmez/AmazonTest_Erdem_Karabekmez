@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.background({
-  "name": "User is on the amazon home page",
+  "name": "",
   "description": "",
   "keyword": "Background"
 });
@@ -23,11 +23,11 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "user clicks on the hamburger menu in the top left corner",
+  "name": "user is on the amazon home page and clicks on the hamburger menu in the top left corner",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.user_clicks_on_the_hamburger_menu_in_the_top_left_corner()"
+  "location": "in.amazon.stepDefinitions.SamsungStepDefinitions.userIsOnTheAmazonHomePageAndClicksOnTheHamburgerMenuInTheTopLeftCorner()"
 });
 formatter.result({
   "status": "passed"

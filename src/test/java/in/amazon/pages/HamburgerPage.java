@@ -1,12 +1,9 @@
 package in.amazon.pages;
 
 import in.amazon.utilities.Driver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class HamburgerPage extends BasePage {
 
@@ -39,9 +36,9 @@ public class HamburgerPage extends BasePage {
     public List<WebElement> logOfAboutThisItemToConsole;
 
 
-/**
- * Methods
- */
+    /**
+     * Methods
+     */
 
     /**
      * This method is clicking hamburger menu in the top left corner
