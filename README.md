@@ -7,7 +7,7 @@
 * Under src/test/java/in/amazon folder, you can see the java codes here.
 * Test data is stored at configuration.properties file. It is possible to change browser type and url.
 
-# HOW TO EXECUTE TESTS?
+# HOW TO EXECUTE TEST?
 
 You should define proper tag on CukesRunner.class file to run tests automatically (@wip).
 
