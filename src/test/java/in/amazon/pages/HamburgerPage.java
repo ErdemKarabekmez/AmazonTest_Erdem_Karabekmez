@@ -1,11 +1,14 @@
 package in.amazon.pages;
 
 import in.amazon.utilities.Driver;
+import in.amazon.utilities.ReusableMethods;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import java.util.*;
 
 public class HamburgerPage extends BasePage {
+
+    ReusableMethods reusableMethods = new ReusableMethods();
 
     /**
      * Locators
@@ -59,14 +62,14 @@ public class HamburgerPage extends BasePage {
      * This method is clicking Televisions
      */
     public void televisionsClick() {
-        televisions.click();
+       reusableMethods.clickWithJS(televisions);
     }
 
     /**
      * This method is clicking Samsung
      */
     public void samsungClick() {
-        samsung.click();
+        reusableMethods.clickWithJS(samsung);
     }
 
     /**
