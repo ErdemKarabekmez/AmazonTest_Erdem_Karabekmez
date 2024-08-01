@@ -54,13 +54,6 @@ public class Driver {
                     WebDriverManager.edgedriver().setup();
                     driver=new EdgeDriver();
                     break;
-                case "chrome-headless":
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(new ChromeOptions().setHeadless(true));
-                    break;
-                case "firefox-headless":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver= new FirefoxDriver(new FirefoxOptions().setHeadless(true));
 
                 case "chrome-ssl":
                     WebDriverManager.chromedriver().setup();

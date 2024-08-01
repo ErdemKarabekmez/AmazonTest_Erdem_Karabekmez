@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"json:target/cucumber.json",
                 "rerun:target/rerun.txt",
-                "html:target/default-html-reports"},
+                "html:target/cucumber-report.html"},
         features = "src/test/resources/features",
         glue = "in/amazon/stepDefinitions",
         dryRun = false,
